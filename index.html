@@ -23,11 +23,30 @@
         <section>
             <h1>¿Quieres estudiar aqui? Registrate ahora.</h1>
             <form action="">
-                <input type="text" placeholder="Ingresa tu nombre">
-                <input type="text" placeholder="Ingresa tu apellido">
-                <input type="number" placeholder="Ingresa tu edad">
-                <button type="submit">HECHO</button>
+                <label for=""></label>
+                <input type="text" placeholder="Ingresa tu nombre" id="inputNombre">
+                <input type="text" placeholder="Ingresa tu apellido" id="inputApellido">
+                <input type="number" placeholder="Ingresa tu edad" id="inputEdad">
+                <button type="button" id="botonHechoRegistro">HECHO</button>
             </form>
+            <span id="spanRegistroExitoso"></span>
+        </section>
+
+        <section>
+            <h1>Inscribete a una clase</h1>
+            <form action="">
+                <label for="clases"></label>
+                <select name="" id="selectClases">
+                    <option value="Español">Español</option>
+                    <option value="Matematicas">Matematicas</option>
+                    <option value="Quimica">Quimica</option>
+                    <option value="Historia">Historia</option>
+                    <option value="Ingles">Ingles</option>
+                    <option value="Educacion Fisica">Educacion Fisica</option>
+                </select>
+                <button type="button" id="botonHechoInscribirClase">HECHO</button>
+            </form>
+            <span id="spanInscripcionClase"></span>
         </section>
     </main>
     <footer></footer>
